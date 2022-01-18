@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+span {
+	float: right;
+}
+
+body {
+	width: 1200px;
+	position: absolute;
+	left: 50%;
+	margin-left: -600px;
+}
+
+
+#nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+#nav li {
+	float: left;
+}
+
+#nav li a, .dropbtn {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+#nav li a:hover, .dropdown:hover .dropbtn {
+	background-color: red;
+}
+
+#nav li.dropdown {
+	display: inline-block;
+}
+
+#nav .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+#nav .dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+#nav .dropdown-content a:hover {
+	background-color: #f1f1f1;
+}
+
+#nav .dropdown:hover .dropdown-content {
+	display: block;
+}
+
+fieldset {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	padding-top: 30px;
+	font-family: 'Nanum Gothic Coding', monospace;
+}
+
+fieldset>legend {
+	font-family: 'Nanum Gothic Coding', monospace;
+	font-size: 40px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+form>button {
+	float: right;
+}
+
+fieldset>table {
+	width: 90%;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+}
+
+fieldset>span {
+	float: right;
+}
+
+table {
+	text-decoration: none;
+}
+
+#table01 {
+	table-layout: auto;
+	width: 100%;
+	border-collapse: collapse;
+	padding: 5px;
+	text-decoration: none;
+}
+
+#table01 th {
+	font-size: 18px;
+	background-color: #d9d9d9;
+	padding: 5px;
+	text-decoration: none;
+}
+
+#table01 tr {
+	height: 35px;
+	padding: 5px;
+	text-decoration: none;
+}
+
+#table01 tr:hover {
+	background-color: #ccffcc;
+}
+
+#table01 #contentLink {
+	line-height: 30px; display : block;
+	width: 100%;
+	height: 100%;
+	display: block;
+	text-decoration: none;
+}
+
+#table01 #data {
+	text-align: center;
+	padding: 5px;
+	text-decoration: none;
+
+}
+
+#table01 td a {
+	text-decoration: none;
+}
+
+#table02 {
+	table-layout: auto;
+	width: 90%;
+	border-collapse: collapse;
+	margin: auto;
+	padding: 5px;
+}
+
+#table02 th {
+	font-size: 14px;
+	background-color: #d9d9d9;
+	width: 100px;
+	padding: 5px;
+}
+
+#table02 td {
+	padding: 10px;
+	text-decoration: none;
+}
+
+#table02 #data {
+	height: 35px;
+	padding: 5px;
+}
+
+#table02 #content {
+	height: 500px;
+	vertical-align: text-top;
+	padding: 5px;
+}
+
+#board_box {
+	width: 100%;
+	overflow: hidden
+}

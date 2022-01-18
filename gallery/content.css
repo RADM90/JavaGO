@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+fieldset {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	padding-top: 30px;
+	font-family: 'Nanum Gothic Coding', monospace;
+}
+
+fieldset>legend {
+	font-family: 'Nanum Gothic Coding', monospace;
+	font-size: 40px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+form>button {
+	float: right;
+}
+
+fieldset>table {
+	width: 90%;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+}
+
+fieldset>span {
+	float: right;
+}
